@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 checkout scm
-                echo 'hello word'
+                echo 'hello wordd'
             }
         }
         stage('Hello') {
